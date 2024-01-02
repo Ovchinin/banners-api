@@ -125,26 +125,6 @@
                     }
                 }
             }
-        },
-        "400": {
-            "description": "Ошибка входных данных",
-            "content": {
-                "application/json": {
-                    "schema": {
-                        "$ref": "#/components/schemas/ApiError"
-                    }
-                }
-            }
-        },
-        "404": {
-            "description": "Ресурс не найден",
-            "content": {
-                "application/json": {
-                    "schema": {
-                        "$ref": "#/components/schemas/ApiError"
-                    }
-                }
-            }
         }
     }
 },
