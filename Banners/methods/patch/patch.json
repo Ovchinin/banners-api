@@ -1,0 +1,81 @@
+"patch": {
+    "tags": [
+        "banner"
+    ],
+    "summary": "Обновление существующего баннера",
+    "operationId": "updateBanner",
+    "parameters": [
+        {
+            "name": "id",
+            "in": "path",
+            "description": "ID баннера, параметры которого нужно обновить",
+            "required": true,
+            "schema": {
+                "type": "integer",
+                "format": "int32"
+            },
+            "example": 1
+        }
+    ],
+    "requestBody": {
+        "required": true,
+        "content": {
+            "application/json": {
+                "schema": {
+                    "allOf": [
+                        {
+                            "$ref": "#/components/schemas/RequestBody"
+                        },
+                        {
+                            "type": "object",
+                            "minProperties": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "responses": {
+        "200": {
+            "description": "Результат выполнения операции и обновленный баннер",
+            "content": {
+                "application/json": {
+                    "schema": {
+                        "type": "object",
+                        "properties": {
+                            "result": {
+                                "$ref": "#/components/schemas/Result"
+                            },
+                            "data": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/Banner"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "400": {
+            "description": "Ошибка входных данных",
+            "content": {
+                "application/json": {
+                    "schema": {
+                        "$ref": "#/components/schemas/ApiError"
+                    }
+                }
+            }
+        },
+        "404": {
+            "description": "Ресурс не найден",
+            "content": {
+                "application/json": {
+                    "schema": {
+                        "$ref": "#/components/schemas/ApiError"
+                    }
+                }
+            }
+        }
+    }
+}
