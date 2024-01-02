@@ -1,0 +1,50 @@
+"Banner": {
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "format": "int32",
+            "description": "Заголовок баннера",
+            "example": 1
+        },
+        "title": {
+            "type": "string",
+            "description": "Заголовок баннера",
+            "example": "Заголовок баннера"
+        },
+        "mainText": {
+            "type": "string",
+            "description": "Основной текст",
+            "example": "Основной текст баннера"
+        },
+        "image": {
+            "type": "string",
+            "format": "url",
+            "description": "Ссылка на картинку для баннера",
+            "example": "https://example.com/banners/banner1.jpg"
+        },
+        "bannerCategory": {
+            "type": "string",
+            "enum": [
+                "Категория 1",
+                "Категория 2",
+                "Категория 3"
+            ],
+            "default": "Категория 1",
+            "description": "Категория баннера",
+            "example": "Категория 1"
+        },
+        "isVisible": {
+            "type": "boolean",
+            "default": true,
+            "description": "Видимость баннера",
+            "example": true
+        },
+        "link": {
+            "type": "string",
+            "format": "url",
+            "description": "Ссылка на страницу с подробной информацией",
+            "example": "https://example.com/banners/banner1"
+        }
+    }
+},

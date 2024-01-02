@@ -1,0 +1,27 @@
+"Result": {
+    "type": "object",
+    "properties": {
+        "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Дата, время получения ответа",
+            "example": "2021-04-25T21:30:05+03:00"
+        },
+        "status": {
+            "type": "integer",
+            "format": "int32",
+            "description": "HTTP код ответа",
+            "example": 200
+        },
+        "service": {
+            "type": "string",
+            "description": "Название сервиса вернувшего ответ",
+            "example": "banners"
+        },
+        "message": {
+            "type": "string",
+            "description": "Текстовое описание результата выполнения операции",
+            "example": "Запрос выполнен успешно"
+        }
+    }
+},
