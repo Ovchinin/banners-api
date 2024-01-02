@@ -17,7 +17,7 @@
     ],
     "paths": {
         "/banners": {
-            $ref: "./Banners/methods/get/get.json"
+            $ref: "./Banners/methods/get/get.json",
             "post": {
                 "tags": [
                     "banner"
