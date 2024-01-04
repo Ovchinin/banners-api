@@ -2,6 +2,6 @@
 
 - "swagger-doc.json" - файл ДО выделения из общего кода компонентов. До создания раздела документации "components/schemas".
 - "swagger-doc-2.json" - файл ПОСЛЕ выделения из общего кода компонентов. Повторяющиеся блоки кода вынесены в раздел документации "components/schemas".
-- "swagger-doc.yaml" - файл "swagger-doc.json" после преобразования его в формат YAML.
+- "swagger-doc.yaml" - файл "swagger-doc-2.json" после преобразования его в формат YAML.
 - "Banner.zip" - архив проекта после выделения повторяющихся блоков кода из раздела "components/schemas" в отдельные файлы.
 - В ветке "swagger-ui-banners" лежат все файлы для публикации проекта на GitHub Pages.
