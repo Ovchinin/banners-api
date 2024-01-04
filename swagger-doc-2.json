@@ -138,7 +138,10 @@
                                             "$ref": "#/components/schemas/Result"
                                         },
                                         "data": {
-                                            "$ref": "#/components/schemas/Banner"
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/Banner"
+                                            }
                                         }
                                     }
                                 }
@@ -218,7 +221,10 @@
                                             "$ref": "#/components/schemas/Result"
                                         },
                                         "data": {
-                                            "$ref": "#/components/schemas/Banner"
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/Banner"
+                                            }
                                         }
                                     }
                                 }
