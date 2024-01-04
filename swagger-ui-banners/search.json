@@ -1,0 +1,38 @@
+{
+    "groups": [
+        {
+            "title": "hghhg",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "fff",
+                    "link": "fgfg",
+                    "image": "fgfgf"
+                },
+                {
+                    "id": 1,
+                    "title": "fff",
+                    "link": "fgfg",
+                    "image": "fgfgf"
+                }
+            ]
+        },
+        {
+            "title": "hghhg",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "fff",
+                    "link": "fgfg",
+                    "image": "fgfgf"
+                },
+                {
+                    "id": 1,
+                    "title": "fff",
+                    "link": "fgfg",
+                    "image": "fgfgf"
+                }
+            ]
+        }
+    ]
+}
