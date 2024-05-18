@@ -23,7 +23,6 @@
                 ],
                 "summary": "Получение списка баннеров",
                 "operationId": "getBanners",
-                "deprecated": true,
                 "parameters": [
                     {
                         "name": "bannerCategory",
