@@ -26,7 +26,6 @@
                 "parameters": [
                     {
                         "name": "bannerCategory",
-                        "deprecated": true,
                         "description": "Категория баннера",
                         "in": "query",
                         "required": false,
