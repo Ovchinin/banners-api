@@ -21,6 +21,7 @@
                 "tags": [
                     "banner"
                 ],
+                "deprecated": true,
                 "summary": "Получение списка баннеров",
                 "operationId": "getBanners",
                 "parameters": [
