@@ -21,12 +21,12 @@
                 "tags": [
                     "banner"
                 ],
-                "deprecated": true,
                 "summary": "Получение списка баннеров",
                 "operationId": "getBanners",
                 "parameters": [
                     {
                         "name": "bannerCategory",
+                        "deprecated": true,
                         "description": "Категория баннера",
                         "in": "query",
                         "required": false,
